@@ -46,7 +46,7 @@ async function questionOne(driver) {
   const expectedError = 'Epic sadface: Sorry, this user has been locked out.';
   assert.strictEqual(actualError, expectedError);
 
-  console.log('✅ Q1 Passed');
+  console.log(' Q1 Passed');
 }
 
 /* ===================== Q2 ===================== */
